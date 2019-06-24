@@ -1,3 +1,4 @@
+use std::borrow::ToOwned;
 use std::borrow::Cow;
 use std::char;
 use std::str;
