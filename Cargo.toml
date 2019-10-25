@@ -19,9 +19,6 @@ edition = "2018"
 [workspace]
 members = ['test-suite']
 
-[badges]
-travis-ci = { repository = "alexcrichton/toml-rs" }
-
 [dependencies]
 serde = { git = "https://github.com/mesalock-linux/serde-sgx", default-features = false, features = ["std"] }
 linked-hash-map = { git = "https://github.com/mesalock-linux/linked-hash-map-sgx", optional = true }
